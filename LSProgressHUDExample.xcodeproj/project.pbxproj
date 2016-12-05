@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281153361DF53CB4007036FE /* LSGraintCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 281153331DF53CB4007036FE /* LSGraintCircleLayer.m */; };
+		281153371DF53CB4007036FE /* LSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 281153351DF53CB4007036FE /* LSProgressHUD.m */; };
 		28A8A98B1D892FEF0047A388 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8A98A1D892FEF0047A388 /* TwoViewController.m */; };
 		28F4D1721D8804B600A07624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D1711D8804B600A07624 /* main.m */; };
 		28F4D1751D8804B600A07624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D1741D8804B600A07624 /* AppDelegate.m */; };
@@ -16,8 +18,6 @@
 		28F4D1801D8804B700A07624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F4D17E1D8804B700A07624 /* LaunchScreen.storyboard */; };
 		28F4D18B1D8804BC00A07624 /* LSProgressHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D18A1D8804BC00A07624 /* LSProgressHUDExampleTests.m */; };
 		28F4D1961D8804BE00A07624 /* LSProgressHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D1951D8804BE00A07624 /* LSProgressHUDExampleUITests.m */; };
-		28F4D1A81D8804FE00A07624 /* LSGraintCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D1A51D8804FE00A07624 /* LSGraintCircleLayer.m */; };
-		28F4D1A91D8804FE00A07624 /* LSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F4D1A71D8804FE00A07624 /* LSProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281153321DF53CB4007036FE /* LSGraintCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGraintCircleLayer.h; sourceTree = "<group>"; };
+		281153331DF53CB4007036FE /* LSGraintCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGraintCircleLayer.m; sourceTree = "<group>"; };
+		281153341DF53CB4007036FE /* LSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSProgressHUD.h; sourceTree = "<group>"; };
+		281153351DF53CB4007036FE /* LSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSProgressHUD.m; sourceTree = "<group>"; };
 		28A8A9891D892FEF0047A388 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		28A8A98A1D892FEF0047A388 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		28F4D16D1D8804B500A07624 /* LSProgressHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSProgressHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +60,6 @@
 		28F4D1911D8804BD00A07624 /* LSProgressHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSProgressHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F4D1951D8804BE00A07624 /* LSProgressHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSProgressHUDExampleUITests.m; sourceTree = "<group>"; };
 		28F4D1971D8804BF00A07624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28F4D1A41D8804FE00A07624 /* LSGraintCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGraintCircleLayer.h; sourceTree = "<group>"; };
-		28F4D1A51D8804FE00A07624 /* LSGraintCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGraintCircleLayer.m; sourceTree = "<group>"; };
-		28F4D1A61D8804FE00A07624 /* LSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSProgressHUD.h; sourceTree = "<group>"; };
-		28F4D1A71D8804FE00A07624 /* LSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		281153311DF53CB4007036FE /* LSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				281153321DF53CB4007036FE /* LSGraintCircleLayer.h */,
+				281153331DF53CB4007036FE /* LSGraintCircleLayer.m */,
+				281153341DF53CB4007036FE /* LSProgressHUD.h */,
+				281153351DF53CB4007036FE /* LSProgressHUD.m */,
+			);
+			path = LSProgressHUD;
+			sourceTree = "<group>";
+		};
 		28F4D1641D8804B500A07624 = {
 			isa = PBXGroup;
 			children = (
+				281153311DF53CB4007036FE /* LSProgressHUD */,
 				28F4D16F1D8804B500A07624 /* LSProgressHUDExample */,
 				28F4D1891D8804BB00A07624 /* LSProgressHUDExampleTests */,
 				28F4D1941D8804BD00A07624 /* LSProgressHUDExampleUITests */,
@@ -110,7 +122,6 @@
 		28F4D16F1D8804B500A07624 /* LSProgressHUDExample */ = {
 			isa = PBXGroup;
 			children = (
-				28F4D1A31D8804FE00A07624 /* LSProgressHUD */,
 				28F4D1731D8804B600A07624 /* AppDelegate.h */,
 				28F4D1741D8804B600A07624 /* AppDelegate.m */,
 				28F4D1761D8804B600A07624 /* ViewController.h */,
@@ -150,17 +161,6 @@
 				28F4D1971D8804BF00A07624 /* Info.plist */,
 			);
 			path = LSProgressHUDExampleUITests;
-			sourceTree = "<group>";
-		};
-		28F4D1A31D8804FE00A07624 /* LSProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				28F4D1A41D8804FE00A07624 /* LSGraintCircleLayer.h */,
-				28F4D1A51D8804FE00A07624 /* LSGraintCircleLayer.m */,
-				28F4D1A61D8804FE00A07624 /* LSProgressHUD.h */,
-				28F4D1A71D8804FE00A07624 /* LSProgressHUD.m */,
-			);
-			path = LSProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,11 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F4D1781D8804B600A07624 /* ViewController.m in Sources */,
-				28F4D1A91D8804FE00A07624 /* LSProgressHUD.m in Sources */,
+				281153361DF53CB4007036FE /* LSGraintCircleLayer.m in Sources */,
 				28F4D1751D8804B600A07624 /* AppDelegate.m in Sources */,
+				281153371DF53CB4007036FE /* LSProgressHUD.m in Sources */,
 				28A8A98B1D892FEF0047A388 /* TwoViewController.m in Sources */,
 				28F4D1721D8804B600A07624 /* main.m in Sources */,
-				28F4D1A81D8804FE00A07624 /* LSGraintCircleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

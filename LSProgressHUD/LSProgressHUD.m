@@ -158,8 +158,5 @@
     }
   }
 }
-- (void)dealloc {
-    
-    NSLog(@"fshdfjkhskjdjk");
-}
+
 @end
