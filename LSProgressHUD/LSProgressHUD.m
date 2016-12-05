@@ -87,7 +87,7 @@
   self.frame = view.bounds;
   CGFloat contentWidth;
   CGFloat labelWidth = 56;
-  CGFloat labelHeight;
+  CGFloat labelHeight=0;
   CGPoint circlePoint;
   self.messageLabel.text = message;
 
