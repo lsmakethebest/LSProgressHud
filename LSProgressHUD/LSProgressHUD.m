@@ -107,8 +107,7 @@
   } else {
     contentWidth = MAX(LSProgressHUDCircle + LSProgressHUDLeftMargin * 2,
                        LSProgressHUDCircle + LSProgressHUDTopMargin * 2);
-    circlePoint = CGPointMake((contentWidth - LSProgressHUDTopMargin) / 2,
-                              contentWidth / 2);
+    circlePoint = CGPointMake(contentWidth / 2,contentWidth / 2);
   }
   self.contentView.frame = CGRectMake(0, 0, contentWidth, contentWidth);
 
