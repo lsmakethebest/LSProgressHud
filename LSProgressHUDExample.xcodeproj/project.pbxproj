@@ -230,7 +230,8 @@
 				TargetAttributes = {
 					28F4D16C1D8804B500A07624 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = HWZH7TV284;
+						DevelopmentTeam = MVWK55S4CF;
+						ProvisioningStyle = Manual;
 					};
 					28F4D1851D8804BB00A07624 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -440,11 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HWZH7TV284;
+				DEVELOPMENT_TEAM = MVWK55S4CF;
 				INFOPLIST_FILE = LSProgressHUDExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuaichengwuliu.LSProgressHUDExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1c899346-5bbc-48d8-ad1b-d53a84a13bd5";
+				PROVISIONING_PROFILE_SPECIFIER = kcwl_allapp_2;
 			};
 			name = Debug;
 		};
@@ -452,7 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HWZH7TV284;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LSProgressHUDExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuaichengwuliu.LSProgressHUDExample;
